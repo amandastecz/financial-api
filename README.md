@@ -1,4 +1,8 @@
-## Financial API
+## Financial API [Study]
+
+### Exercising concepts
+- [X] Requests
+- [X] Middleware
 
 ### Requirements
 
