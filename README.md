@@ -1,25 +1,21 @@
-## FIN-API - Financeira
+## Financial API
 
-### Exercitando conceitos
-- [X] Requisições
-- [X] Middlewares
+### Requirements
 
-### Requisitos
+- [X] It must be possible to create an account
+- [X] It must be possible to fetch the customer's bank statement
+- [X] It must be possible to make a deposit
+- [X] It must be possible to perform a withdrawal
+- [X] It must be possible to search the customer's bank statement by date
+- [X] It must be possible to update the customer account data
+- [X] It must be possible to obtain customer account data
+- [X] It must be possible to delete an account
 
-- [X] Deve ser possível criar uma conta
-- [X] Deve ser possível buscar o extrato bancário do cliente
-- [X] Deve ser possível realizar um depósito
-- [X] Deve ser possível realizar um saque
-- [X] Deve ser possível buscar o extrato bancário do cliente por data
-- [X] Deve ser possível atualizar os dados da conta do cliente
-- [X] Deve ser possível obter dados da conta do cliente
-- [X] Deve ser possível deletar uma conta
+### Business rules
 
-### Regras de negócio
-
-- [X] Não deve ser possível cadastrar uma conta com CPF já existente
-- [X] Não deve ser possível buscar extrato em uma conta não existente
-- [X] Não deve ser possível fazer depósito em uma conta não existente
-- [X] Não deve ser possível fazer saque em uma conta não existente
-- [X] Não deve ser possível fazer saque quando o saldo for insuficiente
-- [X] Não deve ser possível excluir uma conta não existente
+- [X] It must not be possible to register an account with an existing CPF
+- [X] It must not be possible to fetch a statement in a non-existing account
+- [X] It must not be possible to deposit into a non-existing account
+- [X] It must not be possible to withdraw to a non-existing account
+- [X] It should not be possible to withdraw when the balance is insufficient
+- [X] It should not be possible to delete a non-existing account
